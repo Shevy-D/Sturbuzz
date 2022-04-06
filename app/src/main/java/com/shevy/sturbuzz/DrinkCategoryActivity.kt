@@ -32,7 +32,6 @@ class DrinkCategoryActivity : AppCompatActivity() {
                 startActivity(intent)
             }
 
-        //Assign the listener to the list view
         listDrinks.onItemClickListener = itemClickListener
     }
 }
