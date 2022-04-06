@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper
 
 
 
-class SturbuzzDatabaseHelper internal constructor(context: Context?) :
+class SturbuzzDatabaseHelper internal constructor(context: Context) :
     SQLiteOpenHelper(context, DB_NAME, null, DB_VERSION) {
 
 /*  private val DB_NAME = "starbuzz"
